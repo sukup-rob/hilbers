@@ -4,6 +4,8 @@
 - two applications written in C for the class "CNC Machining – Robots in Artistic Practice" at VUT FIT Brno
 - `txtHilberts.exe` prompts the user for a number of iterations. it creates/truncates `output.txt` and writes the path in using following logic:
 
+|symbol|meaning|
+|---|---|
 | u |     UP |
 | r |  RIGHT |
 | d |   DOWN |
@@ -30,10 +32,12 @@ NOTE 2:
 - dva C programy napsané pro "CNC obrábění – Roboti v umělecké praxi" VUT FIT Brno
 - `txtHilberts.exe` si po spuštění vyžádá počet iterací. vytvoří/vymaže `output.txt` a zapíše do něj cestu pomocí následující logiky:
 
-| u |     UP |
-| r |  RIGHT |
-| d |   DOWN |
-| l |   LEFT |
+|symbol|znamená|
+|---|---|
+| u |     NAHORU|
+| r |  DO PRAVA |
+| d |   DOLŮ |
+| l |   DO LEVA |
 | s |   STOP |
 
 (STOP by se v `output.txt` nemělo objevit, ale je součástí kódu, takže ho nechávám přiložený.)
