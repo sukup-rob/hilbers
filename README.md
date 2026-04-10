@@ -3,17 +3,14 @@
 # en
 - two applications written in C for the class "CNC Machining – Robots in Artistic Practice" at VUT FIT Brno
 - `txtHilberts.exe` prompts the user for a number of iterations. it creates/truncates `output.txt` and writes the path in using following logic:
-┌───┬────────┐
-│ u │     UP │
-├───┼────────┤
-│ r │  RIGHT │
-├───┼────────┤
-│ d │   DOWN │
-├───┼────────┤
-│ l │   LEFT │
-├───┼────────┤
-│ s │   STOP │ <-- `STOP` should not appear in `output.txt` - it is a legacy value.
-└───┴────────┘
+
+| u |     UP |
+| r |  RIGHT |
+| d |   DOWN |
+| l |   LEFT |
+| s |   STOP |
+
+(`STOP` should not appear in `output.txt` - it is a legacy value.)
 - `svgMaker.exe` reads `output.txt` and reinterprets it as a .svg into `output.svg`.
 
 NOTE:
@@ -32,17 +29,14 @@ NOTE 2:
 # cs
 - dva C programy napsané pro "CNC obrábění – Roboti v umělecké praxi" VUT FIT Brno
 - `txtHilberts.exe` si po spuštění vyžádá počet iterací. vytvoří/vymaže `output.txt` a zapíše do něj cestu pomocí následující logiky:
-┌───┬─────────┐
-│ u │  NAHORU │
-├───┼─────────┤
-│ r │ DOPRAVA │
-├───┼─────────┤
-│ d │    DOLŮ │
-├───┼─────────┤
-│ l │  DOLEVA │
-├───┼─────────┤
-│ s │    STOP │ <-- STOP by se v `output.txt` nemělo objevit, ale je součástí kódu, takže ho nechávám přiložený.
-└───┴─────────┘
+
+| u |     UP |
+| r |  RIGHT |
+| d |   DOWN |
+| l |   LEFT |
+| s |   STOP |
+
+(STOP by se v `output.txt` nemělo objevit, ale je součástí kódu, takže ho nechávám přiložený.)
 - `svgMaker.exe` přečte `output.txt` a přeformátuje ho do jako .svg do `output.svg`.
 
 POZNÁMKA:
